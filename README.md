@@ -2,7 +2,19 @@
 Python automation script that helps in categorizing and sorting downloaded files into appropriate folders based on file type or source.
 
 ## Run Project
-- py download-manager.py
+- py -m virtualenv env 
+  [to create your virtual environment]
+
+- cd env
+- cd Scripts
+- activate 
+  [to activate your virtual environment]
+
+- cd ../.. 
+  [navigating back to the source folder]
+  
+- pip install -r requirements.txt 
+  [to install the libraries required]
 
 ## Function of the libraries used
 ### 1. os (Operating System Interface):
