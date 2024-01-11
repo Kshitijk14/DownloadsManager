@@ -1,10 +1,12 @@
 # File Organizer
 Standalone application made using Python automation script that helps in categorizing and sorting files into appropriate folders based on file type or source.
 
+![image](https://github.com/Kshitijk14/DownloadsManager/assets/98537053/04edc0d0-5199-41f8-bbda-67356a6e1eb7)
+
 ## How to use the application?
 - Download the app.exe file from the "dist" folder.
 - Run the file as a standalone application.
-- No need of python to run the application.
+- No need for Python to run the application.
 
 ## How to run the project?
 ```
