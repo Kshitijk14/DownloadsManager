@@ -48,10 +48,11 @@ class MyApp:
             '.pptx': 'DOCs',
             '.pptm': 'DOCs',
             '.ppt': 'DOCs',
-            '.csv': 'DOCs',
-            '.xls': 'DOCs',
-            '.xlsx': 'DOCs',
-            '.xlsm': 'DOCs',
+            
+            '.csv': 'Database',
+            '.xls': 'Database',
+            '.xlsx': 'Database',
+            '.xlsm': 'Database',
             
             '.jpg': 'Images',
             '.jpeg': 'Images',
@@ -114,7 +115,7 @@ class MyApp:
         for filename in os.listdir(source_directory):
             file_path = os.path.join(source_directory, filename)
             if os.path.isfile(file_path):
-                self.run_script(file_path, destination_directory)
+                self.run_script()
 
     def move_file(self, file_path, destination_directory):
         _, file_extension = os.path.splitext(file_path)
