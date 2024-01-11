@@ -8,7 +8,7 @@ Standalone application made using Python automation script that helps in categor
 
 ## How to run the project?
 ```
-- py -m virtualenv env 
+py -m virtualenv env 
 ```
   [create your virtual environment]
 
@@ -21,7 +21,7 @@ Standalone application made using Python automation script that helps in categor
   [activate your virtual environment and then navigate back to the source folder]
   
 ```
-- pip install -r requirements.txt 
+pip install -r requirements.txt 
 ```
   [install the libraries required]
 
