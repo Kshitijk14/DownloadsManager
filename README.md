@@ -1,22 +1,36 @@
-# DownloadsManager
-Python automation script that helps in categorizing and sorting downloaded files into appropriate folders based on file type or source.
+# File Organizer
+Standalone application made using Python automation script that helps in categorizing and sorting files into appropriate folders based on file type or source.
 
-## Run Project
+## How to use the application?
+- Download the app.exe file from the "dist" folder.
+- Run the file as a standalone application.
+- No need of python to run the application.
+
+## How to run the project?
+```
 - py -m virtualenv env 
+```
   [to create your virtual environment]
 
+```
 - cd env
 - cd Scripts
 - activate 
+```
   [to activate your virtual environment]
 
+```
 - cd ../.. 
+```
   [navigating back to the source folder]
   
+```
 - pip install -r requirements.txt 
+```
   [to install the libraries required]
 
-## Function of the libraries used
+
+## Function of the libraries used for the original py script
 ### 1. os (Operating System Interface):
   - The os module provides a way of interacting with the operating system, including file and directory operations.
   - In this script, os.path.join() is used to create platform-independent file paths by joining directory and file names with the appropriate path separator.
