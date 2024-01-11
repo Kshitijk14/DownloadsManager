@@ -10,26 +10,22 @@ Standalone application made using Python automation script that helps in categor
 ```
 - py -m virtualenv env 
 ```
-  [to create your virtual environment]
+  [create your virtual environment]
 
 ```
 - cd env
 - cd Scripts
 - activate 
-```
-  [to activate your virtual environment]
-
-```
 - cd ../.. 
 ```
-  [navigating back to the source folder]
+  [activate your virtual environment and then navigate back to the source folder]
   
 ```
 - pip install -r requirements.txt 
 ```
-  [to install the libraries required]
+  [install the libraries required]
 
-
+<!-- for my own reference -->
 ## Function of the libraries used for the original py script
 ### 1. os (Operating System Interface):
   - The os module provides a way of interacting with the operating system, including file and directory operations.
