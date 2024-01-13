@@ -12,20 +12,12 @@ Standalone application made using Python automation script that helps in categor
 ```
 py -m virtualenv env 
 ```
-  [create your virtual environment]
-
 ```
-- cd env
-- cd Scripts
-- activate 
-- cd ../.. 
+.\env\Scripts\activate
 ```
-  [activate your virtual environment and then navigate back to the source folder]
-  
 ```
 pip install -r requirements.txt 
 ```
-  [install the libraries required]
 
 <!-- for my own reference -->
 ## Function of the libraries used for the original py script
